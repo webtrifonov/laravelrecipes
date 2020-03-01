@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('{path}', ['uses' => 'MainController@index'])->where('path', '(.*)');
+Route::get('/', ['uses' => 'MainController@index']);
+Route::get('/test', ['uses' => 'MainController@test']);

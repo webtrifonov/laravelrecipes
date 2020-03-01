@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2f1faa-c800-43c8-b936-4d9b15859f44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Utils/Utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/RecipesItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/RecipesList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/layouts/BaseLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/pages/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/pages/NotFound404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/store/modules/recipes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/store/mutation-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Recipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Recipe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +39,14 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,33 +141,25 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
     </include_path>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/laravelrecipes.iml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1Y8fmu64mhXDtAs7cdNySQNzLsC" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files (x86)\PhpStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\homestead\domains\laravelrecipes\app\Utils" />
       <recent name="C:\homestead\domains\laravelrecipes\app" />
       <recent name="C:\homestead\domains\laravelrecipes\app\Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\homestead\domains\laravelrecipes\resources\lang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,7 +191,11 @@
       <option name="presentableId" value="Default" />
       <updated>1582329303561</updated>
       <workItem from="1582329305401" duration="7692000" />
-      <workItem from="1582337095156" duration="495000" />
+      <workItem from="1582337095156" duration="1107000" />
+      <workItem from="1582568780580" duration="2635000" />
+      <workItem from="1582661280431" duration="2899000" />
+      <workItem from="1582947798164" duration="21395000" />
+      <workItem from="1583062856940" duration="15078000" />
     </task>
     <servers />
   </component>
@@ -189,5 +214,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://C:/_openserver/domains/todo-vue_old/vuex-crash/src/main.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
